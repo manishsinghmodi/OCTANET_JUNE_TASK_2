@@ -12,7 +12,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6f5ee9;
+    
+    background-image: url(pexels-photo-7135121.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .box {
@@ -62,3 +66,72 @@ main {
     color: black;
     background-color: #95a5a6 !important;
 }
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* You can add more styles to the footer, such as font color, font size, etc. */
+  .footer {
+    padding: 40px 0;
+    background-image: url(pexels-photo-7135121.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #080808;
+  }
+  .footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #080707;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    
+  }
+  .footer .social a:hover {
+   
+  }
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  .footer ul a {
+    color: inherit;
+    text-decoration: none;
+    
+  }
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .footer ul a:hover {
+    opacity: 1;
+  }
+  .footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #000000;
+  }
+  
